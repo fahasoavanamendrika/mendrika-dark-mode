@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dark Mode Exemple</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <button id="toggle">🌙 Activer le Dark Mode</button>
+    <div class="contenu">
+      <h1>Bienvenue !</h1>
+      <p>Ceci est un exemple de texte avec un mode sombre.</p>
+    </div>
+    <div class="explication">
+      <h2>🌙 Qu'est-ce que le Dark Mode ?</h2>
+      <p>
+        Le dark mode (ou mode sombre) est une version visuelle d’un site web qui
+        utilise des couleurs foncées, souvent un fond noir ou gris foncé avec du
+        texte clair. Il améliore le confort visuel, surtout dans les
+        environnements sombres, et peut économiser de la batterie.
+      </p>
+
+      <h2>🧱 1. La structure de la page</h2>
+      <p>
+        Une page web est construite en HTML, qui définit les éléments comme les
+        titres, les paragraphes ou les boutons. Pour activer un mode sombre, on
+        ajoute généralement un bouton que l'utilisateur peut cliquer pour
+        changer l’apparence du site.
+      </p>
+
+      <h2>🎨 2. Le style visuel</h2>
+      <p>
+        Les couleurs de la page sont gérées par le CSS. En mode clair, on
+        utilise des couleurs claires pour le fond et foncées pour le texte. En
+        mode sombre, c’est l’inverse. Le site applique un style différent en
+        changeant une classe sur la page.
+      </p>
+
+      <h2>⚙️ 3. Le rôle du JavaScript</h2>
+      <p>
+        Le JavaScript permet de rendre la page interactive. Il détecte le clic
+        sur le bouton et change l’apparence de la page en ajoutant ou enlevant
+        une classe spéciale.
+      </p>
+
+      <h2>💾 4. Garder le mode choisi</h2>
+      <p>
+        Pour mémoriser la préférence de l’utilisateur (sombre ou clair), on peut
+        utiliser une fonction appelée <strong>localStorage</strong>. Cela permet
+        de conserver le mode choisi même après avoir fermé ou rechargé la page.
+      </p>
+
+      <h2>✅ En résumé</h2>
+      <p>
+        Le dark mode fonctionne grâce à 3 éléments : <strong>HTML</strong> pour
+        la structure, <strong>CSS</strong> pour le style, et
+        <strong>JavaScript</strong> pour l’interactivité. C’est une solution
+        moderne et pratique, de plus en plus utilisée sur le web.
+      </p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

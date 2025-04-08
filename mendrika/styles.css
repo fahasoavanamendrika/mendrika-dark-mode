@@ -1,0 +1,89 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: white;
+  color: #111;
+  margin: 0;
+  padding: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Style dark mode */
+body.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+/* Bouton dark mode */
+#toggle {
+  padding: 10px 20px;
+  background-color: #eee;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  transition: background-color 0.3s;
+}
+
+body.dark-mode #toggle {
+  background-color: #2a2a2a;
+  color: white;
+}
+
+/* Contenu général */
+.contenu {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Paragraphe explicatif */
+.contenu p {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  white-space: pre-wrap; /* pour garder les retours à la ligne si tu veux */
+}
+
+body.dark-mode .contenu p {
+  background-color: #1e1e1e;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+}
+
+/* Titres */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.explication {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  line-height: 1.7;
+}
+
+body.dark-mode .explication {
+  background-color: #1c1c1c;
+  color: #f1f1f1;
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.05);
+}
+
+.explication h2 {
+  margin-top: 25px;
+  color: #444;
+  font-size: 1.4rem;
+}
+
+body.dark-mode .explication h2 {
+  color: #ddd;
+}
+
+.explication p {
+  margin-bottom: 15px;
+  text-align: justify;
+}
